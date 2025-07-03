@@ -120,6 +120,7 @@ The dataset contains patient information with the following features:
 > The hospital cost dataset is highly skewed, with extremely high-cost cases driving up the mean.  
 The majority of patients pay modest amounts, but a small group incurs very high expenses, indicating potential outliers or critical cases needing special attention.
 
+---
 
 ✅ Summary:
 Overall, the dataset exhibits high variability and right-skewness, meaning that while most patients incur moderate costs, a few high-cost cases significantly affect the overall average. These insights were critical in guiding model selection and evaluation for the cost prediction task.
