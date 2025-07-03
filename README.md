@@ -1,10 +1,10 @@
-# 🏥 Hospital Cost Prediction using Machine Learning
+## 🏥 Hospital Cost Prediction using Machine Learning
 
 This project utilizes machine learning techniques and statistical analysis to predict hospital costs based on various patient-related and hospital-specific features. It demonstrates the use of regression models, data preprocessing, and visualization techniques for predictive modeling.
 
 ---
 
-## 📌 **Project Goals**
+ 📌 **Project Goals**
 - Predict hospital costs using patient information.
 - Explore relationships between **Age**, **Length of Stay**, **Satisfaction**, and **Cost**.
 - Compare regression models for performance.
@@ -73,42 +73,53 @@ The dataset contains patient information with the following features:
 ---
 
 ## 📈 **Results Table **
-## 📊 Exploratory Data Analysis (EDA) Insights
-✅ Descriptive Statistics (Hospital Cost):
-Statistic	Value
-Mean (Average)	₵8,367.48
-Median	₵6,000.00
-Mode	₵3,000.00
+## 📊 Descriptive Statistical Analysis
 
-Insight:
+### ✅ Central Tendency Measures (Hospital Cost)
+| Metric       | Value (₵) |
+|--------------|-----------|
+| **Mean**     | 8,367.48  |
+| **Median**   | 6,000.00  |
+| **Mode**     | 3,000.00  |
 
-The mean is higher than the median, suggesting a right-skewed distribution (some very high-cost cases are pulling the average upwards).
-The mode indicates that the most common hospital cost is ₵3,000.
+**Insight:**  
+- The **mean cost** (₵8,367.48) is **higher than the median** (₵6,000), suggesting a **right-skewed distribution** where some high-cost patients are pulling the average up.
+- The **mode** is ₵3,000, indicating that the most frequent hospital cost is relatively low compared to the average.
 
-✅ Cost Variability:
-Measure	Value
-Variance	60,248,503.92
-Standard Deviation	₵7,761.99
+---
 
-Insight:
+### ✅ Spread & Variability (Hospital Cost)
+| Metric                | Value (₵) |
+|-----------------------|-----------|
+| **Variance**          | 60,248,503.92 |
+| **Standard Deviation**| 7,761.99  |
 
-The high variance and standard deviation indicate that hospital costs vary significantly in the dataset.
-There is a wide spread of costs, confirming variability among patient expenses.
+**Insight:**  
+- The **standard deviation** is quite large, meaning hospital costs vary significantly from patient to patient.
+- A high variance indicates a wide range of hospital bills, confirming the skewed nature of the data.
 
-✅ Cost Distribution (Percentiles):
-Percentile	Cost
-10th	₵500
-30th	₵2,000
-50th (Median)	₵6,000
-70th	₵12,000
-90th	₵20,000
+---
 
-Insight:
+### ✅ Percentile Distribution
+| Percentile | Cost (₵) |
+|------------|----------|
+| **10th**   | 500      |
+| **30th**   | 2,000    |
+| **50th** *(Median)* | 6,000 |
+| **70th**   | 12,000   |
+| **90th**   | 20,000   |
 
-10% of the hospital costs are below ₵500.
-Half of the patients spent less than ₵6,000.
-The top 10% of patients incurred costs above ₵20,000.
-This again confirms the right-skewed nature of the dataset.
+**Insight:**  
+- **50% of patients** pay **₵6,000 or less** for hospital care.
+- However, **10% of patients** pay **₵20,000 or more**, highlighting a significant difference between typical and high-end costs.
+- This reinforces the **right-skewed distribution** observed earlier.
+
+---
+
+### ✅ Key Takeaway:
+> The hospital cost dataset is highly skewed, with extremely high-cost cases driving up the mean.  
+The majority of patients pay modest amounts, but a small group incurs very high expenses, indicating potential outliers or critical cases needing special attention.
+
 
 ✅ Summary:
 Overall, the dataset exhibits high variability and right-skewness, meaning that while most patients incur moderate costs, a few high-cost cases significantly affect the overall average. These insights were critical in guiding model selection and evaluation for the cost prediction task.
