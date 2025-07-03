@@ -48,7 +48,7 @@ The dataset contains patient information with the following features:
 
 ## 📊 **Visualizations**
 ### Histogram of Hospital Costs
-![Histogram of Hospital Costs](plots/hc.png)
+![Histogram of Hospital Costs](plots/hhc.png)
 
 ### Correlation Heatmap
 ![Correlation Heatmap](plots/ch.png)
