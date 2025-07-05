@@ -1,4 +1,4 @@
-## 🏥 Hospital Cost Prediction using Machine Learning
+## 🏥 Hospital Cost Analysis using Machine Learning
 
 This project utilizes machine learning techniques and statistical analysis to predict hospital costs based on various patient-related and hospital-specific features. It demonstrates the use of regression models, data preprocessing, and visualization techniques for predictive modeling.
 
