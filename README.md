@@ -5,7 +5,7 @@ This project utilizes machine learning techniques and statistical analysis to an
 ---
 
  📌 **Project Goals**
-- Predict hospital costs using patient information.
+- Analyze hospital costs using patient information.
 - Explore relationships between **Age**, **Length of Stay**, **Satisfaction**, and **Cost**.
 - Compare regression models for performance.
 - Visualize insights from the dataset.
