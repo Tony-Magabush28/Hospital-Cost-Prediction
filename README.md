@@ -182,7 +182,7 @@ While polynomial regression (degree 3) slightly improves predictions over simple
 ---
 
 ## ⚙️ Feature Scaling
-You applied **standardization** on the `Length_of_Stay` feature using **StandardScaler** to normalize its scale:
+I applied **standardization** on the `Length_of_Stay` feature using **StandardScaler** to normalize its scale:
 
 | Sample Scaled Values (Length of Stay) |
 |--------------------------------------|
